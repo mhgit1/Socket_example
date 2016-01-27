@@ -16,8 +16,13 @@
     </head>
     <body>
         <div class="container">
-            <textarea style="height:400px;width:400px" id="message"></textarea><br>
-            <input type="text" id="chat_message"><br>
+            <textarea style="height:400px;width:500px" id="message"></textarea><br>
+            <label for="senderName">Name: </label>
+            <input type="text" id="senderName" placeholder="Your chat name"><br><br>
+            <label for="chat_message">Message: </label>
+            <input style="width:440px" type="text" id="chat_message"><br>
+            <label for="receiverName">To: </label>
+            <input type="text" id="receiverName" placeholder="Use for private messages"><br>
             <input type="button" id="send" value="Send">
         </div>
     </body>
